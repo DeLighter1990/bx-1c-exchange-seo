@@ -1,7 +1,5 @@
 <?php
 
-define("LOG_FILENAME", __DIR__ . "/logs/main.log");
-
 if (file_exists(Bitrix\Main\Application::getDocumentRoot() . '/local/php_interface/include/delight.php')) {
     require_once(Bitrix\Main\Application::getDocumentRoot() . '/local/php_interface/include/delight.php');
 }
